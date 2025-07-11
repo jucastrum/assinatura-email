@@ -1,159 +1,93 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="UTF-8" />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
-    />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Funnel+Display:wght@300..800&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Kode+Mono:wght@400..700&family=VT323&display=swap" rel="stylesheet">
-    <style>
-      body {
-        font-family: 'Inter', sans-serif;
-      }
+<table cellpadding="0" cellspacing="0" border="0" style="font-family: Arial, sans-serif; max-width: 500px;">
+    <tr>
+      <td valign="top" style="padding-top: 25px;">
+        <img src="juliannecastrofoto.png" alt="Julianne Castro" width="80" height="80" style="border-radius: 50%;">
+      </td>
 
-      @media only screen and (max-width: 400px) {
-        .container {
-          display: flex;
-          flex-direction: column-reverse;
-          align-items: center;
-        }
+      <td valign="middle" style="padding-top: 30px;">
+        <img src="Union.png" alt=">" width="10">
+      </td>
 
-        .balloon {
-          border-radius: 16px;
-          margin-bottom: 20px;
-        }
+      <td valign="top">
+        <table cellpadding="0" cellspacing="0" border="0" style="background-color: #e6f0ff; border-radius: 16px;">
+          <tr>
+            <td style="padding: 15px 20px;">
+              <table cellpadding="0" cellspacing="0" border="0" width="400px">
+                <tr>
+                  <td style="font-size: 16px; font-weight: bold; color: #003366; font-family: Arial, sans-serif; padding-bottom: 2px;">
+                    Julianne Castro
+                  </td>
+                </tr>
+                <tr>
+                  <td style="font-size: 14px; color: #666666; font-family: Arial, sans-serif; padding-bottom: 8px;">
+                    Engenharia de Software
+                  </td>
+                </tr>
+                <tr>
+                  <td style="padding-top: 5px; padding-bottom: 10px;">
+                    <div style="border-top: 1px solid #cccccc;"></div>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <table cellpadding="0" cellspacing="0" border="0" width="90%">
+  <tr>
+    <td valign="top" style="padding-right: 10px;">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr style="height: 22px;">
+          <td valign="middle" style="padding-right: 5px;">
+            <img src="phone.png" width="14" alt="Telefone">
+          </td>
+          <td valign="middle">
+            <a href="tel:+5592984289423" style="color: #003366; text-decoration: none; font-size: 13px; font-family: Arial, sans-serif;">(55) 92 98428-9423</a>
+          </td>
+        </tr>
+        <tr style="height: 22px;">
+          <td valign="middle" style="padding-right: 5px;">
+            <img src="envelope.png" width="14" alt="Email">
+          </td>
+          <td valign="middle">
+            <a href="mailto:jucastrum@gmail.com" style="color: #003366; text-decoration: none; font-size: 13px; font-family: Arial, sans-serif;">jucastrum@gmail.com</a>
+          </td>
+        </tr>
+        <tr style="height: 22px;">
+          <td valign="middle" style="padding-right: 5px;">
+            <img src="globe.png" width="14" alt="Website">
+          </td>
+          <td valign="middle">
+            <a href="https://juportifolio.vercel.app/" target="_blank" style="color: #003366; text-decoration: none; font-size: 13px; font-family: Arial, sans-serif;">juportifolio.vercel.app</a>
+          </td>
+        </tr>
+      </table>
+    </td>
 
-        .balloon::after {
-          content: '';
-          position: absolute;
-          bottom: -10px;
-          left: 50%;
-          transform: translateX(-50%);
-          border-left: 10px solid transparent;
-          border-right: 10px solid transparent;
-          border-top: 10px solid #e6f0ff;
-        }
-
-        .arrow-left {
-          display: none !important;
-        }
-      }
-    </style>
-  </head>
-  <body style="margin: 0; padding: 0; font-family: 'Inter', sans-serif">
-    <div
-      class="container"
-      style="display: flex; max-width: 600px; width: 100%; background-color: #ffffff; padding: 10px; border-radius: 12px"
-    >
-      <!-- IMAGEM DE PERFIL -->
-      <div style="width: 100px; text-align: center; padding: 10px">
-        <img
-          src="juliannecastrofoto.png"
-          alt="Julianne Castro"
-          width="80"
-          height="80"
-          style="border-radius: 50%; object-fit: cover"
-        />
-      </div>
-
-      <!-- BALÃO -->
-      <div
-        class="balloon"
-        style="position: relative; background-color: #e6f0ff; padding: 15px 20px; border-radius: 16px; width: 100%"
-      >
-        <div style="color: #003366; font-weight: bold; font-size: 16px">
-          Julianne Castro
-        </div>
-        <div style="color: #666; font-size: 14px; margin-bottom: 8px">
-          Engenharia de Software
-        </div>
-        <hr
-          style="border: 0; border-top: 1px solid #ccc; margin: 10px 0"
-        />
-
-        <div
-          style="display: flex; justify-content: space-between; flex-wrap: wrap; font-size: 14px"
-        >
-          <!-- LADO ESQUERDO -->
-          <div style="flex: 1; min-width: 140px">
-            <div style="margin-bottom: 6px">
-              <i class="fas fa-phone" style="color: #007bff"></i>
-              <a
-                href="tel:+5592984289423"
-                style="color: #003366; text-decoration: none; margin-left: 4px"
-                >(55) 92 98428-9423</a
-              >
-            </div>
-            <div style="margin-bottom: 6px">
-              <i class="fas fa-envelope" style="color: #007bff"></i>
-              <a
-                href="mailto:jucastrum@gmail.com"
-                style="color: #003366; text-decoration: none; margin-left: 4px"
-                >jucastrum@gmail.com</a
-              >
-            </div>
-            <div>
-              <i class="fas fa-globe" style="color: #007bff"></i>
-              <a
-                href="https://juportifolio.vercel.app/"
-                target="_blank"
-                style="color: #003366; text-decoration: none; margin-left: 4px"
-                >juportifolio.vercel.app</a
-              >
-            </div>
-          </div>
-
-          <!-- LADO DIREITO -->
-          <div style="flex: 1; min-width: 140px; text-align: right">
-            <div style="margin-bottom: 6px">
-              <i class="fab fa-instagram" style="color: #007bff"></i>
-              <a
-                href="https://www.instagram.com/jucastrum/"
-                target="_blank"
-                style="color: #003366; text-decoration: none; margin-left: 4px"
-                >Instagram</a
-              >
-            </div>
-            <div style="margin-bottom: 6px">
-              <i class="fab fa-linkedin" style="color: #007bff"></i>
-              <a
-                href="https://www.linkedin.com/in/jucastrum/"
-                target="_blank"
-                style="color: #003366; text-decoration: none; margin-left: 4px"
-                >LinkedIn</a
-              >
-            </div>
-            <div>
-              <i class="fab fa-github" style="color: #007bff"></i>
-              <a
-                href="https://github.com/jucastrum"
-                target="_blank"
-                style="color: #003366; text-decoration: none; margin-left: 4px"
-                >GitHub</a
-              >
-            </div>
-          </div>
-        </div>
-
-        <!-- SETA do BALÃO (desktop) -->
-        <div
-          class="arrow-left"
-          style="
-            content: '';
-            position: absolute;
-            left: -8px;
-            top: 35px;
-            width: 0;
-            height: 0;
-            border-top: 10px solid transparent;
-            border-bottom: 10px solid transparent;
-            border-right: 10px solid #e6f0ff;
-          "
-        ></div>
-      </div>
-    </div>
-  </body>
-</html>
+    <td valign="top" align="right">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr style="height: 22px;">
+          <td valign="middle" style="padding-right: 5px;">
+            <img src="instagram.png" width="14" alt="Instagram">
+          </td>
+          <td valign="middle">
+            <a href="https://www.instagram.com/jucastrum/" target="_blank" style="color: #003366; text-decoration: none; font-size: 13px; font-family: Arial, sans-serif;">Instagram</a>
+          </td>
+        </tr>
+        <tr style="height: 22px;">
+          <td valign="middle" style="padding-right: 5px;">
+            <img src="linkedin.png" width="14" alt="LinkedIn">
+          </td>
+          <td valign="middle">
+            <a href="https://www.linkedin.com/in/jucastrum/" target="_blank" style="color: #003366; text-decoration: none; font-size: 13px; font-family: Arial, sans-serif;">LinkedIn</a>
+          </td>
+        </tr>
+        <tr style="height: 22px;">
+          <td valign="middle" style="padding-right: 5px;">
+            <img src="github.png" width="14" alt="GitHub">
+          </td>
+          <td valign="middle">
+            <a href="https://github.com/jucastrum" target="_blank" style="color: #003366; text-decoration: none; font-size: 13px; font-family: Arial, sans-serif;">GitHub</a>
+          </td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+</table>
