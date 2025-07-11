@@ -6,7 +6,7 @@ Este projeto contém o código HTML da minha assinatura de e-mail.
 
 ## ✨ Preview
 
-<img src="./preview.png" alt="Assinatura de E-mail - Julianne" width="max"/>
+<img src="./preview1.png" alt="Assinatura de E-mail - Julianne" width="max"/>
 
 ## 💬 Estilo visual
 
