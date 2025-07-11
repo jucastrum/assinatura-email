@@ -4,6 +4,10 @@
 
 Este projeto contém o código HTML da assinatura de e-mail de **Julianne Castro**, desenvolvedora e estudante de Engenharia de Software.
 
+## ✨ Preview
+
+<img src="./preview.png" alt="Assinatura de E-mail - Julianne" width="max"/>
+
 ## 💬 Estilo visual
 
 A assinatura possui um estilo **moderno e responsivo**, inspirado em um **balão de mensagem** (como os usados em WhatsApp ou iMessage), com:
