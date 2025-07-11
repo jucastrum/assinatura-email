@@ -12,7 +12,7 @@ Este projeto contém o código HTML da minha assinatura de e-mail.
 
 A assinatura possui um estilo **moderno e responsivo**, inspirado em um **balão de mensagem** (como os usados em WhatsApp ou iMessage), com:
 
-- 📷 Foto de perfil redonda à esquerda (ou embaixo no mobile)
+- 📷 Foto de perfil redonda à esquerda, garantindo a visualização em F.
 - 💬 Caixa de mensagem com seta apontando para a imagem
 - 🔵 Cores suaves em tons de azul claro e branco
 - 🧩 Ícones padronizados com Font Awesome
