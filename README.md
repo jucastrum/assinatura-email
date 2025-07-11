@@ -1,6 +1,6 @@
 # Assinatura de E-mail - Julianne Castro
 
-![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://github.com/jucastrum/assinatura-email/blob/main/LICENSE)
 
 Este projeto contém o código HTML da assinatura de e-mail de **Julianne Castro**, desenvolvedora e estudante de Engenharia de Software.
 
